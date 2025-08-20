@@ -38,7 +38,7 @@ Large language models (LLMs) have emerged as powerful knowledge bases yet are li
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/PurCL/muke.git
-    cd muKE
+    cd muke
     ```
 
 2.  **Create a conda environment:**
@@ -85,7 +85,7 @@ python -m experiments.evaluate_uns \
     --num_edits {NUM_EDITS}
 ```
 
--   `{METHOD_NAME}`: The editing method (e.g., `unke_Mat`, `memit`, `AlphaEdit`)
+-   `{METHOD_NAME}`: The editing method (e.g., `unke_Mat`, `memit`)
 -   `{MODEL_NAME}`: The model to edit (e.g., `Qwen/Qwen2.5-7B-Instruct`, `meta-llama/Llama-3-8B-Instruct`)
 -   `{HPARAMS_FILE}`: Hyperparameter file (e.g., `Qwen2.5-7B-Instruct-matryoshka.json`)
 -   `{DATASET_NAME}`: Dataset to use (`unke`, `mquake`, `cf`, `editevery`)
